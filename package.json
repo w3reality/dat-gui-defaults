@@ -29,6 +29,7 @@
     },
     "homepage": "https://github.com/w3reality/dat-gui-defaults",
     "dependencies": {
+        "dat.gui": "^0.7.2"
     },
     "devDependencies": {
         "babel-cli": "^6.26.0",
