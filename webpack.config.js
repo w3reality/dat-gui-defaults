@@ -22,7 +22,7 @@ if (env === 'build') {
 const config = {
     entry: __dirname + '/src/index.js',
     externals: { // https://webpack.js.org/configuration/externals/
-        'dat.gui': 'dat'
+//        'dat.gui': 'dat'
     },
     output: {
         path: __dirname + '/lib',

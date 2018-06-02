@@ -21,3 +21,5 @@ class DatGuiDefaults {
         this.gui.updateDisplay();
     }
 }
+
+export default DatGuiDefaults;
