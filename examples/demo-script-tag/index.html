@@ -36,7 +36,7 @@
                 controller.onChange((value) => {
                     config.wireframe = value;
                 });
-                controller = gui.add(params, 'reset').name("Reset");
+                controller = gui.add(params, 'reset').name("Restore Defaults");
                 controller.onChange((value) => {
                     this.applyDefaults();
                     Object.assign(config, params);
