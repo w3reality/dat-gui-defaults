@@ -14,46 +14,47 @@ Setup
 
 **Loading**
 
-``DatGuiDefaults`` becomes available after
+Using Script tags:
 
 .. code::
 
-   <script src="PATH/TO/dist/dat-gui-defaults.min.js"></script>
+   <script src="dist/dat-gui-defaults.min.js"></script>
 
-or, using the ES6 module system:
+Using the ES6 module system:
    
 .. code::
 
-   import DatGuiDefaults from 'dat-gui-defaults'  # check!!!!!?????
+   import DatGuiDefaults from 'dat-gui-defaults'
    
-**More on loading**
+For more details on loading (e.g. AMD, Node.js), refer to `es6-umd-module-howto`_.
 
-This module complies with `UMD (Universal Module Definition)`_.
-So it can be consumed by script-tags, AMD loading (require.js), and Node.js.
-Refer to `es6-umd-module-howto`_ on the details of loading the module.
-
-.. _UMD (Universal Module Definition): https://github.com/umdjs/umd
 .. _es6-umd-module-howto: https://github.com/w3reality/es6-umd-module-howto
 
 Usage
 -----
 
-**1) do something...**
+!!!override initGui()
 
 .. code::
 
-   !!!MAKE DEMO FIRST
-
-**2) do something...**
+   class DemoGui extends DatGuiDefaults {
+       // override
+       initGui(gui, data, params) {
+           //...
+       }
+   }
 
 .. code::
 
-   !!!MAKE DEMO FIRST
+   var demoGui = new DemoGui(...);
 
-Live Demos ð¥
+Live Demos
 --------------
 
-todooooooo
+https://w3reality.github.io/dat-gui-defaults/examples/demo-script-tag/index.html
+
+https://w3reality.github.io/dat-gui-defaults/examples/demo-es6/dist/index.html
+
 
 Build
 -----
