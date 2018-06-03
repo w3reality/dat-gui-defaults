@@ -3,6 +3,8 @@ dat-gui-defaults
 
 (draft)
 
+https://w3reality.github.io/dat-gui-defaults/examples/demo-highlight.png
+
 Setup
 -----
 
