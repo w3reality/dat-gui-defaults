@@ -1,9 +1,21 @@
 dat-gui-defaults
-===================
+================
 
 (draft)
 
-https://w3reality.github.io/dat-gui-defaults/examples/demo-highlight.png
+https://github.com/dataarts/dat.gui
+
+
+
+
+.. image:: https://w3reality.github.io/dat-gui-defaults/examples/demo-highlight.png
+   :target: https://w3reality.github.io/dat-gui-defaults/examples/demo-es6/dist/index.html
+..   :width: 640
+
+..
+    Click on my |ImageLink|_
+    .. |ImageLink| image:: foo.png
+    .. _ImageLink: https://example.com/
 
 Setup
 -----
