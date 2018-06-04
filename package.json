@@ -1,7 +1,7 @@
 {
     "name": "dat-gui-defaults",
     "version": "1.0.0",
-    "description": "dat.gui wrapper with defaults support",
+    "description": "dat.GUI wrapper with defaults support",
     "main": "dist/dat-gui-defaults.js",
     "directories": {
         "example": "examples",
