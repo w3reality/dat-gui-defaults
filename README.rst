@@ -3,13 +3,6 @@ dat-gui-defaults
 
 A useful wrapper of `dat.GUI <https://github.com/dataarts/dat.gui>`__ with defaults support.  The provided ``DatGuiDefaults`` class makes it easy to write a demo app that requires default configuration handling.
 
-
-.. image:: https://w3reality.github.io/dat-gui-defaults/examples/demo-highlight.png
-   :target: https://w3reality.github.io/dat-gui-defaults/examples/demo-es6/dist/index.html
-..
-   :width: 640
-
-
 Setup
 -----
 
@@ -110,6 +103,12 @@ We present a minimal demo with three.js.
 `Script tag version <https://w3reality.github.io/dat-gui-defaults/examples/demo-script-tag/index.html>`__ (`examples/demo-script-tag/index.html <https://github.com/w3reality/dat-gui-defaults/blob/master/examples/demo-script-tag/index.html>`__)
 
 `ES6 version <https://w3reality.github.io/dat-gui-defaults/examples/demo-es6/dist/index.html>`__ (`examples/demo-es6 <https://github.com/w3reality/dat-gui-defaults/tree/master/examples/demo-es6>`__)
+
+.. image:: https://w3reality.github.io/dat-gui-defaults/examples/demo-highlight.png
+..
+   :target: https://w3reality.github.io/dat-gui-defaults/examples/demo-es6/dist/index.html
+   :width: 640
+
 
 Build
 -----
