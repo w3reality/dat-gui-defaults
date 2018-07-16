@@ -6,7 +6,7 @@ A useful wrapper of `dat.GUI <https://github.com/dataarts/dat.gui>`__ with defau
 Setup
 -----
 
-**Install**
+**Installation**
 
 .. code::
    
@@ -14,17 +14,17 @@ Setup
 
 **Loading**
 
-Using Script tags:
+Via script tags: use ``DatGuiDefaults`` after
 
 .. code::
 
    <script src="dist/dat-gui-defaults.min.js"></script>
 
-Using the ES6 module system:
+Via the ES6 module system:
    
 .. code::
 
-   import DatGuiDefaults from 'dat-gui-defaults'
+   import DatGuiDefaults from 'dat-gui-defaults';
    
 For more details on loading (e.g. AMD, Node.js), refer to `es6-umd-module-howto`_.
 
@@ -72,33 +72,33 @@ Usage
 API
 ---
 
-**new DatGuiDefaults(data)**
+- **new DatGuiDefaults(data)**
 
-data (Object): app data object to be manipulated.
+  data (Object): app data object to be manipulated.
 
-**datGuiDefaults.setDefaults(params)**
+- **datGuiDefaults.setDefaults(params)**
 
-params (Object): the params object for dat.GUI.
+  params (Object): the params object for dat.GUI.
 
-Set the default parameters.
+  Set the default parameters.
 
-**datGuiDefaults.applyDefaults()**
+- **datGuiDefaults.applyDefaults()**
 
-Restore the default parameters for dat.GUI.
+  Restore the default parameters for dat.GUI.
 
-**datGuiDefaults.gui**
+- **datGuiDefaults.gui**
 
-The underlying dat.GUI object can be accessed this way.
+  The underlying dat.GUI object can be accessed this way.
 
 **References**
 
 `dat.GUI API documentation <https://github.com/dataarts/dat.gui/blob/master/API.md>`__
 
 
-Live Demos
-----------
+Demo
+----
 
-We present a minimal demo with three.js.
+Here is a minimal demo with three.js.
 
 `Script tag version <https://w3reality.github.io/dat-gui-defaults/examples/demo-script-tag/index.html>`__ (`examples/demo-script-tag/index.html <https://github.com/w3reality/dat-gui-defaults/blob/master/examples/demo-script-tag/index.html>`__)
 
