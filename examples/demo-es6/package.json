@@ -15,7 +15,6 @@
         "three": "^0.93.0"
     },
     "devDependencies": {
-        "babel-cli": "^6.26.0",
         "babel-core": "^6.26.0",
         "babel-eslint": "^8.0.3",
         "babel-loader": "^7.1.2",
