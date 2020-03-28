@@ -12,24 +12,6 @@ Setup
    
    $ npm install dat-gui-defaults
 
-**Loading**
-
-Via script tags: use ``DatGuiDefaults`` after
-
-.. code::
-
-   <script src="dist/dat-gui-defaults.min.js"></script>
-
-Via the ES6 module system:
-   
-.. code::
-
-   import DatGuiDefaults from 'dat-gui-defaults';
-   
-For more details on loading (e.g. AMD, Node.js), refer to `es6-umd-module-howto`_.
-
-.. _es6-umd-module-howto: https://github.com/w3reality/es6-umd-module-howto
-
 Usage
 -----
 
@@ -98,15 +80,11 @@ API
 Demo
 ----
 
-Here is a minimal demo with three.js.
-
-`Script tag version <https://w3reality.github.io/dat-gui-defaults/examples/demo-script-tag/index.html>`__ (`examples/demo-script-tag/index.html <https://github.com/w3reality/dat-gui-defaults/blob/master/examples/demo-script-tag/index.html>`__)
-
-`ES6 version <https://w3reality.github.io/dat-gui-defaults/examples/demo-es6/dist/index.html>`__ (`examples/demo-es6 <https://github.com/w3reality/dat-gui-defaults/tree/master/examples/demo-es6>`__)
+`Live demo <https://w3reality.github.io/dat-gui-defaults/examples/demo-script-tag/index.html>`__ (`examples/demo-script-tag/index.html <https://github.com/w3reality/dat-gui-defaults/blob/master/examples/demo-script-tag/index.html>`__)
 
 .. image:: https://w3reality.github.io/dat-gui-defaults/examples/demo-highlight.png
 ..
-   :target: https://w3reality.github.io/dat-gui-defaults/examples/demo-es6/dist/index.html
+   :target: https://w3reality.github.io/dat-gui-defaults/examples/demo-script-tag/dist/index.html
    :width: 640
 
 
@@ -116,4 +94,4 @@ Build
 .. code::
 
    $ npm install  # set up build tools
-   $ npm run build  # generate module files in lib/
+   $ npm run build
