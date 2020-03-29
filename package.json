@@ -1,6 +1,6 @@
 {
     "name": "dat-gui-defaults",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "dat.GUI wrapper with defaults support",
     "main": "dist/dat-gui-defaults.js",
     "directories": {
@@ -12,8 +12,7 @@
         "build": "es-pack build -m umd",
         "build:esm": "es-pack build -m esm",
         "build:esm:compat": "es-pack build -m esm-compat",
-        "##test": "npm run test:verify && npm run test:main",
-        "test": "npm run test:main  # skip `test:verify` due to the `window` symbol inside `dat.gui`",
+        "test": "npm run test:verify && npm run test:main",
         "test:verify": "es-pack build -m umd esm esm-compat --verify",
         "test:main": "es-pack test --node --browser",
         "dev": "es-pack build --dev"
@@ -34,6 +33,6 @@
     "homepage": "https://github.com/w3reality/dat-gui-defaults",
     "devDependencies": {
         "dat.gui": "^0.7.6",
-        "es-pack-js": "0.3.4"
+        "es-pack-js": "0.3.5-rc.0"
     }
 }
