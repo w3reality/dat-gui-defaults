@@ -33,6 +33,6 @@
     "homepage": "https://github.com/w3reality/dat-gui-defaults",
     "devDependencies": {
         "dat.gui": "^0.7.6",
-        "es-pack-js": "0.3.5-rc.0"
+        "es-pack-js": "0.3.5"
     }
 }
