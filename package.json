@@ -1,6 +1,6 @@
 {
     "name": "dat-gui-defaults",
-    "version": "1.1.2-dev.0",
+    "version": "1.1.2-dev.1",
     "description": "dat.GUI wrapper with defaults support",
     "main": "dist/dat-gui-defaults.js",
     "directories": {
@@ -33,6 +33,6 @@
     "homepage": "https://github.com/w3reality/dat-gui-defaults",
     "devDependencies": {
         "dat.gui": "^0.7.6",
-        "es-pack-js": "0.4.2"
+        "es-pack-js": "0.5.1"
     }
 }
